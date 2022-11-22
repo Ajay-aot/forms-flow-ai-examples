@@ -4,8 +4,8 @@
       "title": "Freedom of Information and Protection of Privacy",
       "display": "form",
       "type": "form",
-      "name": "freedomOfInformationAndProtectionOfPrivacy",
-      "path": "freedomofinformationandprotectionofprivacy",
+      "name": "foippa",
+      "path": "foippa",
       "tags": ["common"],
       "components": [
         {

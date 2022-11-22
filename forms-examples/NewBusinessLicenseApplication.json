@@ -1,11 +1,11 @@
 {
   "forms": [
     {
-      "title": "New Business License Application",
+      "title": "New Business License Application Sample",
       "display": "form",
       "type": "form",
-      "name": "createNewBusinessLicenseApplication",
-      "path": "createnewbusinesslicenseapplication",
+      "name": "newBusinessLicense",
+      "path": "newBusinessLicense",
       "tags": ["common"],
       "components": [
         {
