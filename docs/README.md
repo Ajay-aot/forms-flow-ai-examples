@@ -1,8 +1,8 @@
 # Notification Email
-This bpmn diagram intended to send email notification to respective users. It uses “email-template.dmn” to configure the email properties.
+This bpmn diagram is intended to send an email notification to respective users. It uses “email-template.dmn” to configure the email properties.
 ## Table of Content
 1. [Type](#type)
-2. [How it Works](#how-it-Works)
+2. [How it Works](#how-it-works)
 
 ## Type
 BPMN
@@ -33,14 +33,14 @@ The notification_email workflow connects with the email-template-example.dmn wit
 # One step Approval
 ## Table of Content
 1. [Type](#type)
-2. [How it Works](#how-it-Works)
+2. [How it Works](#how-it-works)
 ## Type
 BPMN
 ## How it Works
 
 ![image](https://user-images.githubusercontent.com/96716528/207522495-ef0fd2e5-288d-41d4-89e6-df134e8ad6c7.png)
+
 This diagram shows a simple approval process. Submit a form to invoke the process,
-![image](https://user-images.githubusercontent.com/96716528/207522554-d5586607-a4bd-4f96-8d1f-eb349b9dae3d.png)
 
 
 Add below listeners to inject the fields, capture the audit and transform camunda variables.
@@ -51,13 +51,13 @@ Add below listeners to inject the fields, capture the audit and transform camund
 
 - org.camunda.bpm.extension.hooks.listeners.FormBPMFilteredDataPipelineListener
 
-After that exclusive gateway  checks the condition and decide to approve/ reject application
+After that exclusive gateway checks the condition and decides to approve/ reject the application
 
 # Two step Approval
 This bpmn diagram can be used for any state of approval process.
 ## Table of Content
 1. [Type](#type)
-2. [How it Works](#how-it-Works)
+2. [How it Works](#how-it-works)
 ## Type
 BPMN
 ## How it Works
