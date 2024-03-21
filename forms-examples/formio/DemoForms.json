@@ -905,7 +905,7 @@
                     "lazyLoad": false,
                     "components": [
                         {
-                            "label": "Apply Leave",
+                            "label": "Apply for Leave",
                             "action": "submit",
                             "showValidations": false,
                             "theme": "primary",
